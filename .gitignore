@@ -1,5 +1,36 @@
-﻿.pytest/
-venv/
-.idea/
-.pytest_cache/
+﻿# Python bytecode and caches
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test artifacts
+.pytest_cache/
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Log files
+*.log
+log/
+logs/
+
+# OS-specific files
+.DS_Store
+._*
+Thumbs.db
